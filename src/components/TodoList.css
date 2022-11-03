@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background:  #b3d8d8;
+    margin-top: 15px;
+}
+
+.todoList{
+    list-style-type: none;
+}
+
+.todo-row, .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    color: #fff;
+    background: #008b8b;
+    padding: 16px;
+    width: 90%;
+    border-radius: 15px;
+  }
+
+  .inputButton, .deleteButton {
+    background: black;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .userInput {
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
